@@ -1,0 +1,10 @@
+streamlit
+pyngrok
+langchain
+langchain-community
+langchain-groq
+faiss-cpu
+python-dotenv
+beautifulsoup4
+requests
+PyPDF2
