@@ -20,9 +20,9 @@ This isn’t just a toy — it’s a real-world style app people can imagine bei
 
  Tech in Action
  
-->LangChain for RAG pipeline
-->HuggingFace embeddings + FAISS for vector search
-->Groq API (Qwen3-32B) for fast, smart answers
-->BeautifulSoup + PyPDF2 for scraping & parsing
-->Streamlit for the interactive UI
+1. LangChain for RAG pipeline
+2. HuggingFace embeddings + FAISS for vector search
+3. Groq API (Qwen3-32B) for fast, smart answers
+4. BeautifulSoup + PyPDF2 for scraping & parsing
+5. Streamlit for the interactive UI
 
