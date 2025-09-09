@@ -13,13 +13,14 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 
-
+#GROQ API
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 st.set_page_config(page_title="RAG-LLM", page_icon="", layout="wide")
 st.title("RAG-based LLM for Website & PDF Retrieval")
 
+#RAG
 def scrape_text_from_url(url: str) -> str:
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
@@ -51,6 +52,7 @@ def clean_response(response):
     return response.strip()
 
 
+#streamlit
 st.sidebar.header("Input Options")
 input_mode = st.sidebar.radio("Select Input Type:", ["URL", "Upload PDF"])
 
