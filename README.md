@@ -1,6 +1,7 @@
 RAG-LLM: Smart Retrieval from Websites & PDFs
 
-🌟 What’s this about?
+ What’s this about?
+ 
 Finding information inside long PDFs or across websites can be time-consuming.
 This project tackles that problem by building a Retrieval-Augmented Generation (RAG) system that:
 -Takes a website link or an uploaded PDF
@@ -8,7 +9,8 @@ This project tackles that problem by building a Retrieval-Augmented Generation (
 -Stores knowledge as embeddings and lets a Large Language Model answer your questions conversationally.  
 This isn’t just a toy — it’s a real-world style app people can imagine being used in knowledge management, document search, or customer support.
 
-✨ Highlights
+ Highlights
+ 
  1. Scrape any website → instantly index the content
  2. Upload PDFs → parse text and make it searchable
  3. Semantic search with FAISS → finds meaning, not just keywords
@@ -16,7 +18,8 @@ This isn’t just a toy — it’s a real-world style app people can imagine bei
  5. Streamlit UI → simple, clean, recruiter-friendly demo
  6. Deployable with Docker / Hugging Face Spaces
 
-🛠 Tech in Action
+ Tech in Action
+ 
 ->LangChain for RAG pipeline
 ->HuggingFace embeddings + FAISS for vector search
 ->Groq API (Qwen3-32B) for fast, smart answers
