@@ -14,7 +14,7 @@ This isn’t just a toy — it’s a real-world style app people can imagine bei
  1. Scrape any website → instantly index the content
  2. Upload PDFs → parse text and make it searchable
  3. Semantic search with FAISS → finds meaning, not just keywords
- 4. Groq-powered Qwen3-32B LLM → answers feel natural, not robotic
+ 4. Groq-powered LLM → answers feel natural, not robotic
  5. Streamlit UI → simple, clean, recruiter-friendly demo
  6. Deployable with Docker / Hugging Face Spaces
 
@@ -22,7 +22,7 @@ This isn’t just a toy — it’s a real-world style app people can imagine bei
  
 1. LangChain for RAG pipeline
 2. HuggingFace embeddings + FAISS for vector search
-3. Groq API (Qwen3-32B) for fast, smart answers
+3. Groq API (LLM) for fast, smart answers
 4. BeautifulSoup + PyPDF2 for scraping & parsing
 5. Streamlit for the interactive UI
 
