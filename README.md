@@ -40,19 +40,13 @@ The retrieved chunks are combined with the user’s query via LangChain’s Retr
 Security & Deployment:
 API keys (like GROQ_API_KEY) are stored securely in a .env file and loaded using python-dotenv. The system runs efficiently and locally with minimal setup.
 
-Steps:
- 1. Scrape any website → instantly index the content
- 2. Upload PDFs → parse text and make it searchable
- 3. Semantic search with FAISS → finds meaning, not just keywords
- 4. Groq-powered LLM → answers feel natural, not robotic
- 5. Streamlit UI → simple, clean, recruiter-friendly demo
- 6. Deployable with Docker / Hugging Face Spaces
-
  Tech in Action
- 
 1. LangChain for RAG pipeline
 2. HuggingFace embeddings + FAISS for vector search
 3. Groq API (LLM) for fast, smart answers
 4. BeautifulSoup + PyPDF2 for scraping & parsing
 5. Streamlit for the interactive UI
+
+
+   
 
